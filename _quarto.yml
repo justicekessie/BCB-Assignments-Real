@@ -1,0 +1,41 @@
+project:
+  type: website
+
+website:
+  title: "JAKes' Science Portfolio"
+  description: "A Journey Through My Scientific Endeavors"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: blog.qmd
+        text: Blog
+    right:
+      - href: contact.qmd
+        text: Contact
+
+format:
+  html:
+    theme: lux
+    css: bootstrap.css
+    toc: true
+
+editor: visual
+
+output:
+  page:
+    title: "JAKes' Portfolio"
+    toc: true
+    keep_md: true
+
+header-includes:
+  - |
+    <style>
+      body {
+        font-family: "Prima", sans-serif;
+      }
+    </style>

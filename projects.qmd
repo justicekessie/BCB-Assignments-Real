@@ -1,0 +1,71 @@
+---
+title: "My Projects"
+author: "Jake"
+date: "2025-02-18"
+---
+
+Welcome to my project showcase! Here, you'll find an array of data science and research projects that I've worked on, each highlighting my skills and passion for scientific exploration.
+
+## Data Science Projects
+
+### Predicting House Prices 🏡
+
+![House Price Prediction](images/house-price-prediction.jpg)
+
+**Description**: In this project, I built a regression model to predict house prices based on features like the number of bedrooms, square footage, and location. This model helps potential buyers and real estate agents make informed decisions.
+
+**Technologies Used**: Python, Pandas, Scikit-Learn
+
+**Key Insights**: - Identified key factors that influence house prices - Achieved a high R-squared value, indicating a strong model performance
+
+[View Project](projects/project1.qmd)
+
+------------------------------------------------------------------------
+
+### Customer Segmentation 🎯
+
+![Customer Segmentation](images/customer-segmentation.jpg)
+
+**Description**: Using clustering techniques, I performed customer segmentation to identify different groups of customers based on their purchasing behavior. This analysis helps businesses tailor their marketing strategies to target specific customer segments.
+
+**Technologies Used**: Python, K-Means, Scikit-Learn
+
+**Key Insights**: - Identified distinct customer segments with unique purchasing patterns - Provided actionable insights for personalized marketing
+
+[View Project](projects/project2.qmd)
+
+## Research Projects
+
+### Environmental Impact Analysis 🌍
+
+![Environmental Impact](images/environmental-impact.jpg)
+
+**Description**: I analyzed the environmental impact of various pollutants using data from multiple sources. This project aims to raise awareness about environmental issues and inform policy decisions.
+
+**Technologies Used**: R, ggplot2, Data Analysis
+
+**Key Insights**: - Highlighted the most harmful pollutants and their sources - Suggested potential interventions to reduce environmental impact
+
+[View Project](projects/project3.qmd)
+
+------------------------------------------------------------------------
+
+### Gene Expression Analysis 🧬
+
+![Gene Expression](images/gene-expression.jpg)
+
+**Description**: Investigated gene expression patterns in different cell types using advanced data analysis techniques. This research contributes to our understanding of genetic regulation and its implications for health and disease.
+
+**Technologies Used**: R, Bioconductor, Data Analysis
+
+**Key Insights**: - Identified key genes involved in specific cellular functions - Provided insights into potential targets for medical research
+
+[View Project](projects/project4.qmd)
+
+------------------------------------------------------------------------
+
+Thank you for exploring my projects! If you have any questions or would like to discuss my work further, feel free to reach out.
+
+------------------------------------------------------------------------
+
+This template provides a structured and visually appealing way to present your projects, including images, descriptions, technologies used, and key insights. You can customize the content and images to fit your specific projects and preferences. If you need further adjustments, just let me know!

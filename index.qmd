@@ -1,0 +1,57 @@
+---
+title: "Welcome to JAKes' Science Portfolio"
+author: "Jake"
+date: "2025-02-18"
+---
+
+# Welcome to My Science Portfolio
+
+Hello, and welcome to my science portfolio! Here, you'll find a collection of my projects, skills, and experiences in the field of science. I'm excited to share my journey with you.
+
+## About Me
+
+Originally from **Ghana**, I moved to Moscow, ID in Spring 2024 to study [**Bioinformatics and Computational Biology**](https://www.uidaho.edu/sci/bcb) in the [**University of Idaho**](https://www.uidaho.edu/). My first and second degrees were in Mathematics and Applied Mathematics respectively, all in the [University of Energy and Natural Resources, Sunyani, Ghana](https://www.uenr.edu.gh/), where I also taught as an [Assistant Lecturer](https://uenr.edu.gh/staff/mr-kessie-justice-amenyo/) in the Department of Mathematics and Statistics.
+
+My research focus is in **transmissible vaccines and infectious disease modelling**, and I belong to the Laboratory for Ecological, Epidemiological, and Evolutionary Forecasting ([**LE3F**](https://www.leeef.org/)). 
+
+Currently, I am particularly interested in understanding the mechanisms that allow for viral coexistence, especially with the activation of immune response, NK-cells- and how that influences these dynamics. The aim of the research is to contribute to innovative strategies for controlling persistent viral infections and to improve vaccine designs. By leveraging on mathematical models as digital twins, I'm exploring the critical factors that can lead to more effective and long-lasting disease prevention.
+
+## Projects
+
+### Data Science Projects
+
+1.  **Project 1: Predicting House Prices**
+    -   **Description**: Built a regression model to predict house prices based on various features.
+    -   **Technologies Used**: Python, Pandas, Scikit-Learn
+    -   [View Project](projects/project1.qmd)
+2.  **Project 2: Customer Segmentation**
+    -   **Description**: Performed customer segmentation using clustering techniques.
+    -   **Technologies Used**: Python, K-Means, Scikit-Learn
+    -   [View Project](projects/project2.qmd)
+
+### Research Projects
+
+1.  **Project 3: Environmental Impact Analysis**
+    -   **Description**: Analyzed the environmental impact of various pollutants.
+    -   **Technologies Used**: R, ggplot2, Data Analysis
+    -   [View Project](projects/project3.qmd)
+2.  **Project 4: Gene Expression Analysis**
+    -   **Description**: Investigated gene expression patterns in different cell types.
+    -   **Technologies Used**: R, Bioconductor, Data Analysis
+    -   [View Project](projects/project4.qmd)
+
+## Blog
+
+I regularly write about my experiences, insights, and latest trends in science and data science. Check out my latest blog posts below:
+
+-   [Understanding Machine Learning Models](blog/machine-learning.qmd)
+-   [The Future of Data Science](blog/data-science-future.qmd)
+-   [Exploring Environmental Data](blog/environmental-data.qmd)
+
+## Contact
+
+I'm always open to connecting with fellow scientists, researchers, and enthusiasts. Feel free to reach out to me via email at [your-email\@example.com](mailto:your-email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile).
+
+------------------------------------------------------------------------
+
+Thank you for visiting my portfolio. I hope you find my work interesting and insightful!

@@ -1,0 +1,43 @@
+---
+title: "My Blog"
+author: "Jake"
+date: "2025-02-18"
+---
+
+Welcome to my blog! Here you'll find my latest posts, insights, and musings on various topics related to data science, research, and beyond. Feel free to explore and stay updated with my latest thoughts and discoveries.
+
+## Latest Posts
+
+\`\`\`{=html}
+
+::: {#latest-posts}
+<!-- JavaScript to dynamically sort and display latest posts -->
+
+```{=html}
+<script>
+  // Sample blog post data
+  const blogPosts = [
+    { title: "Understanding Machine Learning Models", date: "2025-02-14", link: "blog/machine-learning.qmd" },
+    { title: "The Future of Data Science", date: "2025-01-20", link: "blog/data-science-future.qmd" },
+    { title: "Exploring Environmental Data", date: "2025-01-05", link: "blog/environmental-data.qmd" },
+    { title: "Genetic Algorithms Explained", date: "2024-12-15", link: "blog/genetic-algorithms.qmd" },
+    { title: "Data Visualization Best Practices", date: "2024-11-30", link: "blog/data-visualization.qmd" },
+  ];
+
+  // Function to display blog posts sorted by date
+  function displayLatestPosts() {
+    blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
+    const latestPostsDiv = document.getElementById('latest-posts');
+    let postsHtml = '<ul>';
+    blogPosts.forEach(post => {
+      postsHtml += `<li><a href="${post.link}">${post.title}</a> - ${post.date}</li>`;
+    });
+    postsHtml += '</ul>';
+    latestPostsDiv.innerHTML = postsHtml;
+  }
+
+  // Display latest posts on page load
+  document.addEventListener('DOMContentLoaded', displayLatestPosts);
+</script>
+```
+:::
