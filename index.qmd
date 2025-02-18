@@ -45,6 +45,7 @@ I regularly write about my experiences, insights, and latest trends in science a
 -   [Understanding Machine Learning Models](blog/machine-learning.qmd)
 -   [The Future of Data Science](blog/data-science-future.qmd)
 -   [Exploring Environmental Data](blog/environmental-data.qmd)
+-   [Marks and Channels](blog/marks_and_channel)
 
 ## Contact
 
