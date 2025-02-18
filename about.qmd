@@ -18,6 +18,18 @@ Hello! I'm Jake, a passionate scientist with a deep interest in data science, re
 
 ## Find my CV
 
+::: column-screen
+```{r}
+#| echo: false
+#| fig.width: 8
+#| fig.height: 12
+#| out.width: "100%"
+#| out.height: "1500px"
+#| fig.align: "center"
+knitr::include_graphics("J. A. Kessie_CV.pdf")
+```
+:::
+
 ## Contact
 
 Feel free to reach out to me via email at [your-email\@example.com](mailto:your-email@example.com) or connect with me on [LinkedIn](https://www.linkedin.com/in/yourprofile).
