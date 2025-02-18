@@ -4,8 +4,6 @@ author: "Jake"
 date: "2025-02-18"
 ---
 
-# Welcome to My Science Portfolio
-
 Hello, and welcome to my science portfolio! Here, you'll find a collection of my projects, skills, and experiences in the field of science. I'm excited to share my journey with you.
 
 ## About Me
