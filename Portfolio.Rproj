@@ -10,5 +10,9 @@ UseSpacesForTab: Yes
 NumSpacesForTab: 2
 Encoding: UTF-8
 
-RnwWeave: Sweave
+RnwWeave: knitr
 LaTeX: pdfLaTeX
+
+PythonType: system
+PythonVersion: 3.13.0
+PythonPath: C:/Users/jakes/AppData/Local/Programs/Python/Python313/python.exe

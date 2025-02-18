@@ -9,14 +9,12 @@ Expressiveness and Effectiveness
 library(ggplot2)
 data(mtcars)
 
-fig1 <- ggplot(mtcars, aes(x = mpg, y = hp, color = factor(cyl))) +
+ggplot(mtcars, aes(x = mpg, y = hp, color = factor(cyl))) +
   geom_point(size = 3) +
   labs(title = "Proper Use of Marks and Channels",
        x = "Miles per Gallon (mpg)",
        y = "Horsepower (hp)",
        color = "Cylinders")
-
-fig1
 ```
 
 Caption: Figure 1 shows the relationship between miles per gallon (mpg) and horsepower (hp) using color to distinguish between different numbers of cylinders. This adheres to the expressiveness and effectiveness principles.
