@@ -1,20 +1,30 @@
 ---
-title: "Assignment IV"
-jupyter: python3
+title: "JAKes' Blog"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: true
 ---
 
 Expressiveness and Effectiveness
 
-```{r, include = TRUE}
+```{r}
 library(ggplot2)
 data(mtcars)
 
-ggplot(mtcars, aes(x = mpg, y = hp, color = factor(cyl))) +
+p1 <- ggplot(mtcars, aes(x = mpg, y = hp, color = factor(cyl))) +
   geom_point(size = 3) +
   labs(title = "Proper Use of Marks and Channels",
        x = "Miles per Gallon (mpg)",
        y = "Horsepower (hp)",
        color = "Cylinders")
+
+print(p1)
 ```
 
 Caption: Figure 1 shows the relationship between miles per gallon (mpg) and horsepower (hp) using color to distinguish between different numbers of cylinders. This adheres to the expressiveness and effectiveness principles.
