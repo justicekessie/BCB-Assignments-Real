@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jake">
-<meta name="dcterms.date" content="2025-02-18">
 
-<title>My Blog – JAKes’ Science Portfolio</title>
+<title>Assignment IV – JAKes’ Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -108,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
@@ -128,40 +126,22 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#latest-posts" id="toc-latest-posts" class="nav-link active" data-scroll-target="#latest-posts">Latest Posts</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blog</h1>
+<h1 class="title">Assignment IV</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jake </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 18, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -171,42 +151,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my blog! Here you’ll find my latest posts, insights, and musings on various topics related to data science, research, and beyond. Feel free to explore and stay updated with my latest thoughts and discoveries.</p>
-<section id="latest-posts" class="level2">
-<h2 class="anchored" data-anchor-id="latest-posts">Latest Posts</h2>
-<p>```{=html}</p>
-<div id="latest-posts">
-<!-- JavaScript to dynamically sort and display latest posts -->
-<script>
-  // Sample blog post data
-  const blogPosts = [
-    { title: "Understanding Machine Learning Models", date: "2025-02-14", link: "blog/machine-learning.qmd" },
-    { title: "The Future of Data Science", date: "2025-01-20", link: "blog/data-science-future.qmd" },
-    { title: "Exploring Environmental Data", date: "2025-01-05", link: "blog/environmental-data.qmd" },
-    { title: "Genetic Algorithms Explained", date: "2024-12-15", link: "blog/genetic-algorithms.qmd" },
-    { title: "Data Visualization Best Practices", date: "2024-11-30", link: "blog/data-visualization.qmd" },
-     { title: "Assignment IV: Mars and Channels", date: "2025-02-17", link: "blog/marks_and_channel.qmd" },
-  ];
-
-  // Function to display blog posts sorted by date
-  function displayLatestPosts() {
-    blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-    const latestPostsDiv = document.getElementById('latest-posts');
-    let postsHtml = '<ul>';
-    blogPosts.forEach(post => {
-      postsHtml += `<li><a href="${post.link}">${post.title}</a> - ${post.date}</li>`;
-    });
-    postsHtml += '</ul>';
-    latestPostsDiv.innerHTML = postsHtml;
-  }
-
-  // Display latest posts on page load
-  document.addEventListener('DOMContentLoaded', displayLatestPosts);
-</script>
-</div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
