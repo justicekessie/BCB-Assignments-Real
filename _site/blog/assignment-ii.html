@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Jake">
-<meta name="dcterms.date" content="2025-02-18">
 
-<title>My Blog – JAKes’ Science Portfolio</title>
+<title>Assignment II – JAKes’ Science Portfolio</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,22 +23,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,19 +71,50 @@ ul.task-list li input[type="checkbox"] {
     font-family: "Prima", sans-serif;
   }
 </style>
+</head><body class="nav-fixed">\usepackage{mathpazo}
+\usepackage[margin = 2.5cm]{geometry}
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../bootstrap.css">
 
 
-<link rel="stylesheet" href="bootstrap.css">
-</head>
 
-<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">JAKes’ Science Portfolio</span>
     </a>
   </div>
@@ -96,25 +125,25 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="../projects.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
+    <a class="nav-link" href="../contact.html"> 
 <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
@@ -133,35 +162,27 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#latest-posts" id="toc-latest-posts" class="nav-link active" data-scroll-target="#latest-posts">Latest Posts</a></li>
+  <li><a href="#description-of-data" id="toc-description-of-data" class="nav-link active" data-scroll-target="#description-of-data">Description of Data</a></li>
+  <li><a href="#simplified-state-coordinates-data-with-proper-region-conversion" id="toc-simplified-state-coordinates-data-with-proper-region-conversion" class="nav-link" data-scroll-target="#simplified-state-coordinates-data-with-proper-region-conversion">Simplified state coordinates data with proper region conversion</a></li>
+  <li><a href="#time-parameters" id="toc-time-parameters" class="nav-link" data-scroll-target="#time-parameters">Time parameters</a></li>
+  <li><a href="#strain-configuration" id="toc-strain-configuration" class="nav-link" data-scroll-target="#strain-configuration">Strain configuration</a></li>
+  <li><a href="#join-the-data-with-explicit-relationship-specification" id="toc-join-the-data-with-explicit-relationship-specification" class="nav-link" data-scroll-target="#join-the-data-with-explicit-relationship-specification">Join the data with explicit relationship specification</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="assignment-ii.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">My Blog</h1>
+<h1 class="title">Assignment II</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Jake </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">February 18, 2025</p>
-    </div>
-  </div>
   
     
   </div>
@@ -171,36 +192,164 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to my blog! Here you’ll find my latest posts, insights, and musings on various topics related to data science, research, and beyond. Feel free to explore and stay updated with my latest thoughts and discoveries.</p>
-<section id="latest-posts" class="level2">
-<h2 class="anchored" data-anchor-id="latest-posts">Latest Posts</h2>
-<p>```{=html}</p>
-<div id="latest-posts">
-<!-- JavaScript to dynamically sort and display latest posts -->
-<script>
-  // Sample blog post data
-  const blogPosts = [
-    { title: "Assignment II", date: "2024-12-15", link: "C:/Users/jakes/OneDrive - University of Idaho/Assignment-IV/Portfolio/_site/blog/assignment-iii.html" },
-    { title: "Assignment III: Prototype Viz Portfolio", date: "2025-02-16", link: "C:/Users/jakes/OneDrive - University of Idaho/Assignment-IV/Portfolio/_site/blog/assignment-iii.html" },
-     { title: "Assignment IV: Marks and Channels", date: "2025-02-17", link: "C:/Users/jakes/OneDrive - University of Idaho/Assignment-IV/Portfolio/_site/blog/marks_and_channel.html" }
-  ];
+<section id="description-of-data" class="level2">
+<h2 class="anchored" data-anchor-id="description-of-data">Description of Data</h2>
+<p>The covid_ts dataset tracks the daily counts of COVID-19 infections and deaths across U.S. states, broken down by different virus strains. It includes several key columns: the date, state, total infections, deaths, and daily case counts for each COVID-19 strain— <em>Original</em>, <em>Alpha</em>, <em>Delta</em>, and <em>Omicron</em>. The date column records the day of the entry, while the state column tells you which U.S. state the data pertains to. The total_infections column gives the overall count of COVID-19 cases, and deaths shows the number of lives lost to the virus. The strain-specific columns break down the daily cases for each variant: <em>Original</em>, <em>Alpha</em>, <em>Delta</em>, and <em>Omicron</em>.</p>
+<p>The dataset begins in early 2020, during the first wave of the pandemic, and continues through the various waves caused by the emergence of new strains. These variants, like Alpha, Delta, and Omicron, had different levels of contagiousness and impacts on public health, which is reflected in their infection and death rates. For instance, the Alpha variant, emerging in late 2020, was more easily spread than the original strain, while Delta, which appeared in 2021, caused a major global surge. Omicron, emerging toward the end of 2021, was highly transmissible but led to fewer severe cases compared to previous strains.</p>
+<p>By analyzing this dataset, we can track how each variant’s dominance shifted over time and across regions. It provides insight into when and where each strain became the most prevalent, shedding light on regional variations in how COVID-19 spread. Additionally, the dataset allows us to explore how mortality rates changed with each variant. By comparing death counts for each strain, we can gain a better understanding of how the severity of the virus evolved. Overall, the dataset is a powerful tool for both public health policy makers and epidemiological researchers. It allows us to visualize how the virus spread geographically and how different variants impacted different regions at various times. For example, using pie charts, we can easily show the proportion of each strain in different states, offering a clear picture of how the pandemic unfolded across the U.S. over time.</p>
+<pre class="{r}"><code># Required packages
+library(tidyverse)
+library(lubridate)
+library(maps)
+library(gganimate)
+library(gifski)
+</code></pre>
+<p>```{r, include=FALSE} #| echo: false #set.seed(123)</p>
+</section>
+<section id="simplified-state-coordinates-data-with-proper-region-conversion" class="level1">
+<h1>Simplified state coordinates data with proper region conversion</h1>
+<p>states &lt;- tibble( state = state.name, longitude = state.center<span class="math inline">\(x,
+  latitude = state.center\)</span>y, region = as.character(state.region) )</p>
+</section>
+<section id="time-parameters" class="level1">
+<h1>Time parameters</h1>
+<p>start_date &lt;- as.Date(“2020-01-01”) end_date &lt;- as.Date(“2022-12-31”) dates &lt;- seq(start_date, end_date, by = “day”)</p>
+</section>
+<section id="strain-configuration" class="level1">
+<h1>Strain configuration</h1>
+<p>strains &lt;- c(“Original”, “Alpha”, “Delta”, “Omicron”) strain_emergence &lt;- list( Original = as.Date(“2020-01-01”), Alpha = as.Date(“2020-09-01”), Delta = as.Date(“2021-03-01”), Omicron = as.Date(“2021-11-01”) )</p>
+<p>calculate_strain_probs &lt;- function(date, region) { date &lt;- as.Date(date) region &lt;- as.character(region)</p>
+<p>region_modifier &lt;- case_when( region == “Northeast” ~ 1.2, region == “South” ~ 1.0, region == “North Central” ~ 0.9, region == “West” ~ 1.1, TRUE ~ 1.0 )</p>
+<p>get_strain_prob &lt;- function(strain_date, fitness) { strain_date &lt;- as.Date(strain_date) days_since_emergence &lt;- as.numeric(difftime(date, strain_date, units = “days”)) if (days_since_emergence &lt; 0) return(0) 1 / (1 + exp(-fitness * region_modifier * (days_since_emergence/100 - 3))) }</p>
+<p>probs &lt;- c( Original = get_strain_prob(strain_emergence<span class="math inline">\(Original, 0.8),
+    Alpha = get_strain_prob(strain_emergence\)</span>Alpha, 1.0), Delta = get_strain_prob(strain_emergence<span class="math inline">\(Delta, 1.2),
+    Omicron = get_strain_prob(strain_emergence\)</span>Omicron, 1.5) )</p>
+<p>probs &lt;- pmax(0, probs + rnorm(length(probs), 0, 0.02)) if (sum(probs) == 0) probs &lt;- c(1, 0, 0, 0) probs / sum(probs) }</p>
+<pre><code>
+```{r}
+# Generate data with proper strain distribution
+covid_ts &lt;- tibble()
 
-  // Function to display blog posts sorted by date
-  function displayLatestPosts() {
-    blogPosts.sort((a, b) => new Date(b.date) - new Date(a.date));
-    const latestPostsDiv = document.getElementById('latest-posts');
-    let postsHtml = '<ul>';
-    blogPosts.forEach(post => {
-      postsHtml += `<li><a href="${post.link}">${post.title}</a> - ${post.date}</li>`;
-    });
-    postsHtml += '</ul>';
-    latestPostsDiv.innerHTML = postsHtml;
+for(s in states$state) {
+  state_region &lt;- as.character(states$region[states$state == s])
+  
+  for(d in dates) {
+    d &lt;- as.Date(d)
+    
+    day_of_year &lt;- yday(d)
+    seasonal_factor &lt;- 1 + 0.3 * sin(2 * pi * (day_of_year - 30)/365)
+    base_rate &lt;- 100 * seasonal_factor
+    
+    # Calculate probabilities for each strain
+    probs &lt;- calculate_strain_probs(d, state_region)
+    
+    # Generate total infections
+    total_infections &lt;- rpois(1, lambda = base_rate)
+    
+    # Distribute infections across strains
+    if(total_infections &gt; 0) {
+      strain_counts &lt;- rmultinom(1, total_infections, probs)[,1]
+    } else {
+      strain_counts &lt;- rep(0, length(strains))
+    }
+    names(strain_counts) &lt;- strains
+    
+    # Calculate deaths for each strain separately
+    mortality_rates &lt;- c(Original = 0.02, Alpha = 0.025, Delta = 0.035, Omicron = 0.01)
+    deaths &lt;- sum(sapply(1:length(strains), function(i) {
+      rbinom(1, strain_counts[i], mortality_rates[strains[i]])
+    }))
+    
+    # Create daily record with proper strain distribution
+    daily_data &lt;- tibble(
+      date = d,
+      state = s,
+      total_infections = total_infections,
+      deaths = deaths,
+      Original = strain_counts["Original"],
+      Alpha = strain_counts["Alpha"],
+      Delta = strain_counts["Delta"],
+      Omicron = strain_counts["Omicron"]
+    )
+    
+    covid_ts &lt;- bind_rows(covid_ts, daily_data)
   }
+  
+  cat("Processed state:", s, "\n")
+}
 
-  // Display latest posts on page load
-  document.addEventListener('DOMContentLoaded', displayLatestPosts);
-</script>
-</div>
+# Verify that strains sum to total infections
+check_sums &lt;- covid_ts %&gt;%
+  mutate(
+    strain_sum = Original + Alpha + Delta + Omicron,
+    matches = strain_sum == total_infections
+  )</code></pre>
+<pre class="{r}"><code># Print summary to verify strain distribution
+summary_stats &lt;- covid_ts %&gt;%
+  group_by(state) %&gt;%
+  summarise(
+    total_cases = sum(total_infections, na.rm = TRUE),
+    total_original = sum(Original, na.rm = TRUE),
+    total_alpha = sum(Alpha, na.rm = TRUE),
+    total_delta = sum(Delta, na.rm = TRUE),
+    total_omicron = sum(Omicron, na.rm = TRUE)
+  )
+print(summary_stats)</code></pre>
+<pre class="{r}"><code># Create visualization of dominant strains
+# Modify the dominant strains data to ensure unique state-month-year combinations
+dominant_strains &lt;- covid_ts %&gt;%
+  mutate(
+    year = year(date),
+    month = month(date)
+  ) %&gt;%
+  group_by(state, year, month) %&gt;%
+  summarize(
+    Original = sum(Original),
+    Alpha = sum(Alpha),
+    Delta = sum(Delta),
+    Omicron = sum(Omicron),
+    .groups = 'drop'
+  ) %&gt;%
+  pivot_longer(
+    cols = all_of(strains),
+    names_to = "strain",
+    values_to = "count"
+  ) %&gt;%
+  group_by(state, year, month) %&gt;%
+  slice_max(count, n = 1, with_ties = FALSE) %&gt;%
+  ungroup()</code></pre>
+<p>```{r, include = FALSE} # Clean up state names in map data us_map &lt;- map_data(“state”) %&gt;% mutate( state = str_to_title(region), # Create a unique identifier for each polygon piece piece_id = group )</p>
+</section>
+<section id="join-the-data-with-explicit-relationship-specification" class="level1">
+<h1>Join the data with explicit relationship specification</h1>
+<p>map_data &lt;- us_map %&gt;% left_join( dominant_strains, by = “state”, relationship = “many-to-many” )</p>
+<pre><code>
+```{r}
+# Create the visualization with updated aesthetics
+p &lt;- ggplot(map_data, aes(x = long, y = lat, group = piece_id)) +
+  geom_polygon(
+    aes(fill = strain),
+    color = "white",
+    linewidth = 0.2  # Updated from 'size' to 'linewidth'
+  ) +
+  coord_map("albers", lat0 = 39, lat1 = 45) +
+  scale_fill_brewer(palette = "Set3") +
+  labs(
+    title = "COVID-19 Strain Distribution in the United States",
+    subtitle = "Date: {frame_time}",
+    fill = "Dominant Strain"
+  ) +
+  theme_minimal() +
+  theme(
+    legend.position = "bottom",
+    plot.title = element_text(size = 14, face = "bold"),
+    plot.subtitle = element_text(size = 12),
+    panel.grid = element_blank()  # Remove grid lines for cleaner map
+  ) +
+  transition_time(as.Date(paste(year, month, "01", sep = "-"))) +
+  ease_aes('linear')</code></pre>
+<pre class="{r}"><code>p</code></pre>
+<pre class="{r}"><code></code></pre>
 
 
 </section>
