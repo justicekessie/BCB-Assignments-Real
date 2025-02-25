@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "My Blog",
+    "section": "",
+    "text": "Welcome to my blog! Here you’ll find my latest posts, insights, and musings on various topics related to data science, research, and beyond. Feel free to explore and stay updated with my latest thoughts and discoveries."
+  },
+  {
+    "objectID": "blog.html#latest-posts",
+    "href": "blog.html#latest-posts",
+    "title": "My Blog",
+    "section": "Latest Posts",
+    "text": "Latest Posts\n```{=html}"
+  }
+]
