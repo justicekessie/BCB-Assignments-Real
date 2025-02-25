@@ -1,0 +1,25 @@
+update_git_hub <- function(comment = "first commit", user_name = "Your Name", user_email = "your_email@example.com") {
+  # Set Git user identity
+  system(glue::glue('git config --global user.name "{user_name}"'))
+  system(glue::glue('git config --global user.email "{user_email}"'))
+  
+  # Initialize Git repository if not already initialized
+  if (!file.exists(".git")) {
+    system("git init")
+  }
+  
+  # Add all changes to staging
+  system("git add .")
+  
+  # Show status of the repository
+  system("git status")
+  
+  # Commit changes with a message
+  system(glue::glue('git commit -m "{comment}"'))
+  
+  # Ensure the branch is set to main
+  system("git branch -M main")
+  
+  # Push changes to the main branch
+  system("git push origin main --force")
+}
