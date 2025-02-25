@@ -33,5 +33,68 @@
     "title": "JAKes’ Blog",
     "section": "",
     "text": "The covid_ts dataset tracks the daily counts of COVID-19 infections and deaths across U.S. states, broken down by different virus strains. It includes several key columns: the date, state, total infections, deaths, and daily case counts for each COVID-19 strain— Original, Alpha, Delta, and Omicron. The date column records the day of the entry, while the state column tells you which U.S. state the data pertains to. The total_infections column gives the overall count of COVID-19 cases, and deaths shows the number of lives lost to the virus. The strain-specific columns break down the daily cases for each variant: Original, Alpha, Delta, and Omicron.\nThe dataset begins in early 2020, during the first wave of the pandemic, and continues through the various waves caused by the emergence of new strains. These variants, like Alpha, Delta, and Omicron, had different levels of contagiousness and impacts on public health, which is reflected in their infection and death rates. For instance, the Alpha variant, emerging in late 2020, was more easily spread than the original strain, while Delta, which appeared in 2021, caused a major global surge. Omicron, emerging toward the end of 2021, was highly transmissible but led to fewer severe cases compared to previous strains.\nBy analyzing this dataset, we can track how each variant’s dominance shifted over time and across regions. It provides insight into when and where each strain became the most prevalent, shedding light on regional variations in how COVID-19 spread. Additionally, the dataset allows us to explore how mortality rates changed with each variant. By comparing death counts for each strain, we can gain a better understanding of how the severity of the virus evolved. Overall, the dataset is a powerful tool for both public health policy makers and epidemiological researchers. It allows us to visualize how the virus spread geographically and how different variants impacted different regions at various times. For example, using pie charts, we can easily show the proportion of each strain in different states, offering a clear picture of how the pandemic unfolded across the U.S. over time.\n\n# Print summary to verify strain distribution\nsummary_stats &lt;- covid_ts %&gt;%\n  group_by(state) %&gt;%\n  summarise(\n    total_cases = sum(total_infections, na.rm = TRUE),\n    total_original = sum(Original, na.rm = TRUE),\n    total_alpha = sum(Alpha, na.rm = TRUE),\n    total_delta = sum(Delta, na.rm = TRUE),\n    total_omicron = sum(Omicron, na.rm = TRUE)\n  )\nprint(summary_stats)\n\n# A tibble: 50 × 6\n   state       total_cases total_original total_alpha total_delta total_omicron\n   &lt;chr&gt;             &lt;int&gt;          &lt;int&gt;       &lt;int&gt;       &lt;int&gt;         &lt;int&gt;\n 1 Alabama          109373          66239       24936       13570          4628\n 2 Alaska           109498          66436       24823       13755          4484\n 3 Arizona          108895          66117       24334       13643          4801\n 4 Arkansas         109954          66163       25234       13849          4708\n 5 California       108676          65750       24602       13558          4766\n 6 Colorado         109467          66024       24716       13906          4821\n 7 Connecticut      109524          66145       24903       13750          4726\n 8 Delaware         109397          65844       24785       14034          4734\n 9 Florida          109460          65971       25177       13499          4813\n10 Georgia          109962          66237       24961       13801          4963\n# ℹ 40 more rows"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "Profile Picture\nHello! I’m Jake, a passionate scientist with a deep interest in data science, research, and innovation. With a diverse background in various scientific disciplines, I am always eager to explore new methodologies and technologies to solve complex problems."
+  },
+  {
+    "objectID": "about.html#educational-background",
+    "href": "about.html#educational-background",
+    "title": "About Me",
+    "section": "Educational Background",
+    "text": "Educational Background\n\nBachelor of Science in Mathematics - University of Energy and Natural Resources\nMaster of Science in Applied Mathematics - University of Energy and Natural Resources\n\nResearch; Modeled the risk of measles outbreak within a population with interrupted vaccination."
+  },
+  {
+    "objectID": "about.html#find-my-cv",
+    "href": "about.html#find-my-cv",
+    "title": "About Me",
+    "section": "Find my CV",
+    "text": "Find my CV"
+  },
+  {
+    "objectID": "about.html#contact",
+    "href": "about.html#contact",
+    "title": "About Me",
+    "section": "Contact",
+    "text": "Contact\nFeel free to reach out to me via email at your-email@example.com or connect with me on LinkedIn.\n\nThank you for visiting my portfolio. I hope you find my work interesting and insightful!"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to JAKes’ Science Portfolio",
+    "section": "",
+    "text": "Hello, and welcome to my science portfolio! Here, you’ll find a collection of my projects, skills, and experiences in the field of science. I’m excited to share my journey with you."
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Welcome to JAKes’ Science Portfolio",
+    "section": "About Me",
+    "text": "About Me\nOriginally from Ghana, I moved to Moscow, ID in Spring 2024 to study Bioinformatics and Computational Biology in the University of Idaho. My first and second degrees were in Mathematics and Applied Mathematics respectively, all in the University of Energy and Natural Resources, Sunyani, Ghana, where I also taught as an Assistant Lecturer in the Department of Mathematics and Statistics.\nMy research focus is in transmissible vaccines and infectious disease modelling, and I belong to the Laboratory for Ecological, Epidemiological, and Evolutionary Forecasting (LE3F). \nCurrently, I am particularly interested in understanding the mechanisms that allow for viral coexistence, especially with the activation of immune response, NK-cells- and how that influences these dynamics. The aim of the research is to contribute to innovative strategies for controlling persistent viral infections and to improve vaccine designs. By leveraging on mathematical models as digital twins, I’m exploring the critical factors that can lead to more effective and long-lasting disease prevention."
+  },
+  {
+    "objectID": "index.html#projects",
+    "href": "index.html#projects",
+    "title": "Welcome to JAKes’ Science Portfolio",
+    "section": "Projects",
+    "text": "Projects\n\nData Science Projects\n\nProject 1: Predicting House Prices\n\nDescription: Built a regression model to predict house prices based on various features.\nTechnologies Used: Python, Pandas, Scikit-Learn\nView Project\n\nProject 2: Customer Segmentation\n\nDescription: Performed customer segmentation using clustering techniques.\nTechnologies Used: Python, K-Means, Scikit-Learn\nView Project\n\n\n\n\nResearch Projects\n\nProject 3: Environmental Impact Analysis\n\nDescription: Analyzed the environmental impact of various pollutants.\nTechnologies Used: R, ggplot2, Data Analysis\nView Project\n\nProject 4: Gene Expression Analysis\n\nDescription: Investigated gene expression patterns in different cell types.\nTechnologies Used: R, Bioconductor, Data Analysis\nView Project"
+  },
+  {
+    "objectID": "index.html#blog",
+    "href": "index.html#blog",
+    "title": "Welcome to JAKes’ Science Portfolio",
+    "section": "Blog",
+    "text": "Blog\nI regularly write about my experiences, insights, and latest trends in science and data science. Check out my latest blog posts below:\n\nUnderstanding Machine Learning Models\nThe Future of Data Science\nExploring Environmental Data\nMarks and Channels"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Welcome to JAKes’ Science Portfolio",
+    "section": "Contact",
+    "text": "Contact\nI’m always open to connecting with fellow scientists, researchers, and enthusiasts. Feel free to reach out to me via email at your-email@example.com or connect with me on LinkedIn.\n\nThank you for visiting my portfolio. I hope you find my work interesting and insightful!"
   }
 ]
