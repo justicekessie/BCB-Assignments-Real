@@ -21,8 +21,8 @@ Welcome to my blog! Here you'll find my latest posts, insights, and musings on v
     { title: "The Future of Data Science", date: "2025-01-20", link: "blog/data-science-future.qmd" },
     { title: "Exploring Environmental Data", date: "2025-01-05", link: "blog/environmental-data.qmd" },
     { title: "Genetic Algorithms Explained", date: "2024-12-15", link: "blog/genetic-algorithms.qmd" },
-    { title: "Assignment III: Prototype Viz Portfolio", date: "2025-02-16", link: "blog/assignment-iii.html" },
-     { title: "Assignment IV: Marks and Channels", date: "2025-02-17", link: "blog/marks_and_channel.html" }
+    { title: "Assignment III: Prototype Viz Portfolio", date: "2025-02-16", link: "C:/Users/jakes/OneDrive - University of Idaho/Assignment-IV/Portfolio/_site/blog/assignment-iii.html" },
+     { title: "Assignment IV: Marks and Channels", date: "2025-02-17", link: "C:/Users/jakes/OneDrive - University of Idaho/Assignment-IV/Portfolio/_site/blog/marks_and_channel.html" }
   ];
 
   // Function to display blog posts sorted by date
