@@ -16,36 +16,7 @@ Currently, I am particularly interested in understanding the mechanisms that all
 
 ## Projects
 
-### Data Science Projects
-
-1.  **Project 1: Predicting House Prices**
-    -   **Description**: Built a regression model to predict house prices based on various features.
-    -   **Technologies Used**: Python, Pandas, Scikit-Learn
-    -   [View Project](projects/project1.qmd)
-2.  **Project 2: Customer Segmentation**
-    -   **Description**: Performed customer segmentation using clustering techniques.
-    -   **Technologies Used**: Python, K-Means, Scikit-Learn
-    -   [View Project](projects/project2.qmd)
-
-### Research Projects
-
-1.  **Project 3: Environmental Impact Analysis**
-    -   **Description**: Analyzed the environmental impact of various pollutants.
-    -   **Technologies Used**: R, ggplot2, Data Analysis
-    -   [View Project](projects/project3.qmd)
-2.  **Project 4: Gene Expression Analysis**
-    -   **Description**: Investigated gene expression patterns in different cell types.
-    -   **Technologies Used**: R, Bioconductor, Data Analysis
-    -   [View Project](projects/project4.qmd)
-
-## Blog
-
-I regularly write about my experiences, insights, and latest trends in science and data science. Check out my latest blog posts below:
-
--   [Understanding Machine Learning Models](blog/machine-learning.qmd)
--   [The Future of Data Science](blog/data-science-future.qmd)
--   [Exploring Environmental Data](blog/environmental-data.qmd)
--   [Marks and Channels](/_site/blog/marks_and_channel.html)
+### Loading...
 
 ## Contact
 
